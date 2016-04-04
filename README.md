@@ -62,4 +62,10 @@ entrer
 
 ---
 
+Mettre à jour la base de donnée :
+
+php bin/console doctrine:schema:update --force
+
+---
+
 Voir le formulaire sur nom_du_repertoire/web/app_dev.php/coach/new
