@@ -76,4 +76,4 @@ php bin/console doctrine:schema:update --force
 
 ---
 
-**Voir le formulaire sur **_nom_du_repertoire/web/app_dev.php/coach/new_**
+Voir le formulaire sur **_nom_du_repertoire/web/app_dev.php/coach/new_**
