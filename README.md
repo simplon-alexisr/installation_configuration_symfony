@@ -1,25 +1,25 @@
-Installer Symfony sur linux :
+**_Installer Symfony sur linux :_**
 
 sudo curl -LsS https://symfony.com/installer -o /usr/local/bin/symfony
 sudo chmod a+x /usr/local/bin/symfony
 
 ---
 
-créer un nouveau repertoire dans le /var/www/html :
+**_Créer un nouveau repertoire dans le /var/www/html :_**
 
 symfony new nom_du_projet
 
 aller dans le fichier app/config/parameters.yml
 
-modifier la ligne de nom du projet pour qu'il soit identique a celui que l'on fait
+_modifier la ligne de nom du projet pour qu'il soit identique a celui que l'on fait_
 
-et modifier les ligne de pseudo et de mot de passe avec ceux de phpmyadmin
+_et modifier les ligne de pseudo et de mot de passe avec ceux de phpmyadmin_
 
-rester dans le dossier du projet et ainsi continuer le tuto
+_rester dans le dossier du projet et ainsi continuer le tuto_
 
 ---
 
-Generer un Bundle :
+**_Generer un Bundle :_**
 
 php bin/console doctrine:database:create
 
@@ -37,7 +37,7 @@ entrer
 
 ---
 
-Generer une entité :
+**_Generer une entité :_**
 
 php bin/console generate:doctrine:entity
 
@@ -54,7 +54,7 @@ entrer (si plus de champ a ajouter)
 
 ---
 
-Generer un Create Remove Update Delete :
+**_Generer un Create Remove Update Delete :_**
 
 php bin/console doctrine:generate:crud
 
@@ -70,10 +70,10 @@ entrer
 
 ---
 
-Mettre à jour la base de donnée :
+**_Mettre à jour la base de donnée :_**
 
 php bin/console doctrine:schema:update --force
 
 ---
 
-Voir le formulaire sur nom_du_repertoire/web/app_dev.php/coach/new
+**Voir le formulaire sur **_nom_du_repertoire/web/app_dev.php/coach/new_**
