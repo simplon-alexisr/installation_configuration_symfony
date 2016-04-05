@@ -9,6 +9,14 @@ créer un nouveau repertoire dans le /var/www/html :
 
 symfony new nom_du_projet
 
+aller dans le fichier app/config/parameters.yml
+
+modifier la ligne de nom du projet pour qu'il soit identique a celui que l'on fait
+
+et modifier les ligne de pseudo et de mot de passe avec ceux de phpmyadmin
+
+rester dans le dossier du projet et ainsi continuer le tuto
+
 ---
 
 Generer un Bundle :
