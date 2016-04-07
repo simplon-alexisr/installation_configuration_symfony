@@ -77,3 +77,24 @@ php bin/console doctrine:schema:update --force
 ---
 
 Voir le formulaire sur **_nom_du_repertoire/web/app_dev.php/coach/new_**
+
+
+#Tweaks symfony :
+
+###Modifier le css pour afficher la totalité des erreurs
+ouvrir :
+`votre_projet/vendor/symfony/symfony/src/Symfony/Bundle/Resources/public/css/structure.css`
+
+Dans `#content` supprimer la ligne `width: 970px;`
+
+
+
+###En cas d'erreur d'affichage dans `_profiler/routing`
+ouvrir :
+`votre_projet/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundleController/RouterController.php`
+
+Sous `namespace Symfony\Bundle\WebProfilerBundle\Controller;`
+ajouter la ligne :
+`use Symfony\Component\HttpFoundation\Request;`
+ou
+`use Symfony\Component\BrowserKit\Request;`
